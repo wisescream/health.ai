@@ -191,6 +191,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               collectionNamePath: ['appointments'],
             ),
           ),
+        ),
+        FFRoute(
+          name: 'DRBOT',
+          path: '/drbot',
+          builder: (context, params) => DrbotWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

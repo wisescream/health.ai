@@ -17,3 +17,4 @@ export '/pages/edit_profile/edit_profile_widget.dart' show EditProfileWidget;
 export '/pages/find_symptoms/find_symptoms_widget.dart' show FindSymptomsWidget;
 export '/pages/appointment_details_profile/appointment_details_profile_widget.dart'
     show AppointmentDetailsProfileWidget;
+export '/pages/drbot/drbot_widget.dart' show DrbotWidget;
